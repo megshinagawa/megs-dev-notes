@@ -9,7 +9,6 @@ tags:
 ## Courses 
 ---
 - [[Zero To Mastery Machine Learning Course]]
-- [[Zero To Mastery Python Course]]
 ## Projects 
 ---
 Coming soon!

@@ -12,7 +12,7 @@ tags:
 - [[Matplotlib]]
 ## Workflow
 ---
-`conda activate <enviornment_path>`
-`jupyter notebook`
-`control + c` to exit out of the server
-`conda deactivate` to close the environment 
+- `conda activate <enviornment_path>`
+- `jupyter notebook`
+- `control + c` to exit out of the server
+- `conda deactivate` to close the environment 
