@@ -1,6 +1,0 @@
----
-Type: Course
----
-## Notes 
----
-- 

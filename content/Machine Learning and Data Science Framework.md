@@ -1,10 +1,11 @@
 ---
-Type: Learning
-Course: "[[ZTM Machine Learning Course]]"
+title: Machine Learning and Data Science Framework
+draft: false
+tags:
 ---
 > Come back to this lesson when you feel lost or overwhelmed! 
 ## Machine Learning Framework 
-![[ml101-6-step-ml-framework.png]]
+![[Pasted image 20240319223559.png]]
 ### 1) Problem definition: What are we trying to solve? 
 - Align the problem with a machine learning problem 
 - Remember: not all problems need a machine learning solution 
@@ -58,5 +59,3 @@ Course: "[[ZTM Machine Learning Course]]"
 	- You use the same training set
 	- What's the "cost" of increased accuracy 
 ### 6) Experimentation: How can we improve? What can we do next? 
-## Tools that we'll be using 
-![[ml101-6-step-ml-framework-tools.png]]

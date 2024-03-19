@@ -1,6 +1,7 @@
 ---
-Type: Learning
-Course: "[[ZTM Python Course]]"
+title: Python Basics
+draft: false
+tags:
 ---
 ### Introduction
 #### What is a programming language? 

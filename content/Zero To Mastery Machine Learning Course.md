@@ -1,10 +1,8 @@
 ---
-Type: Course
+title: Zero To Mastery Machine Learning Course
+draft: false
+tags:
 ---
-## Resources 
----
-- [Course Handbook](https://dev.mrdbourke.com/zero-to-mastery-ml/)
-- [Learn about regular expressions](https://regexone.com/)
 ## Notes
 ---
 - [[Machine Learning 101]]

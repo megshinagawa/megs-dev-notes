@@ -1,6 +1,7 @@
 ---
-Type: Learning
-Course: "[[ZTM Machine Learning Course]]"
+title: Pandas
+draft: false
+tags:
 ---
 ## Introduction 
 - Pandas is a [[Python]] based data manipulation tool 
@@ -13,8 +14,6 @@ Course: "[[ZTM Machine Learning Course]]"
 ## Importing & exporting data 
 - `pd.read_csv("path/filename.csv")`: imports your CSV file as a DataFrame 
 - `pd.to_csv("filename.csv")`: exports your DataFrame as CSV
-## Anatomy of DataFrames 
-![[pandas-anatomy-of-a-dataframe.png]]
 ## Describing data 
 - `.dtypes`: shows what datatype each column contains 
 - `.describe()`: returns a quick statistical overview of the numerical columns 

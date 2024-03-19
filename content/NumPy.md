@@ -1,6 +1,7 @@
 ---
-Type: Learning
-Course: "[[ZTM Machine Learning Course]]"
+title: NumPy
+draft: false
+tags:
 ---
 ## Introduction 
 - NumPy stands for numerical [[Python]] and it turns data into numbers that the computer can analyze to find patterns 

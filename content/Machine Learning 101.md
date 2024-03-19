@@ -1,9 +1,10 @@
 ---
-Type: Learning
-Course: "[[ZTM Machine Learning Course]]"
+title: Machine Learning 101
+draft: false
+tags:
 ---
 ## Machine learning diagram 
-![[Screenshot 2024-03-17 at 21.22.56.png|300]]
+![[Pasted image 20240319222903.png|400]]
 ## Types of machine learning 
 - Supervised 
 	- Classification 
@@ -21,5 +22,4 @@ Course: "[[ZTM Machine Learning Course]]"
 	- machine learning algorithms get the ingredients and the output, so it has to figure out what happened in between 
 - Data analysis: analyzes and visualizes the data in order to find patterns and understand it better 
 - Data science: running experiments to find actionable findings 
-![[Screenshot 2024-03-17 at 21.35.48.png|400]]
 ## Exercise: what is machine learning in your own words?

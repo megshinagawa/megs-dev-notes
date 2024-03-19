@@ -1,6 +1,7 @@
 ---
-Type: Learning
-Course: "[[ZTM Machine Learning Course]]"
+title: Matplotlib
+draft: false
+tags:
 ---
 ## Introduction 
 - Matplotlib is [[Python]]'s plotting library built on [[NumPy]] that can integrate directly with [[Pandas]]
@@ -40,9 +41,6 @@ plt.show()
 fig, ax = plt.subplots()
 ax.plot(x,y)
 ```
-## Anatomy of a plot 
-![[matplotlib-anatomy-of-a-plot.png]]
-![[matplotlib-anatomy-of-a-plot-with-code.png]]
 ## Example workflow 
 ```python
 # 0. Import matplotlib and get it ready for plotting in Jupyter 
