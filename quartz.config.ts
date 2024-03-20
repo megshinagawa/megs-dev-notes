@@ -22,9 +22,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Kantumruy Pro",
-        body: "Kantumruy Pro",
-        code: "IBM Plex Mono",
+        header: "Noto Sans Khojki",
+        body: "Noto Sans Khojki",
+        code: "Sometype Mono",
       },
       colors: {
         lightMode: {
