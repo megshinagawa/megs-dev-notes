@@ -91,4 +91,8 @@ ax[1,0].bar(data)
 ax[1,1].hist(data)
 ```
 ## Plotting from pandas DataFrames 
-`car_sales.plot(x="column name", y="column name")`: this is the [[Pandas]] version of matplotlib 
+- `car_sales.plot(x="column name", y="column name")`: this is the [[Pandas]] version of matplotlib 
+- `car_sales.plot.hist()`
+### Pyplot vs matplotlib object-oriented method 
+- When trying to get a quick visualization, pylot is fine but the object-oriented method is better for all other instances 
+## Object oriented method 

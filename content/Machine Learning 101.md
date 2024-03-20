@@ -23,3 +23,4 @@ tags:
 - Data analysis: analyzes and visualizes the data in order to find patterns and understand it better 
 - Data science: running experiments to find actionable findings 
 ## Exercise: what is machine learning in your own words?
+- Machine learning is a word used to describe the process in which computers take in data and analyze it to derive meaningful patterns out of them using different models and algorithms. 
