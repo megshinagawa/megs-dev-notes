@@ -14,8 +14,8 @@ id1 ---> id3(compiler)
 id2 ---> id4(computer)
 id3 ---> id4
 ```
-==Interpreter==: Goes line by line and executes the code (python usually uses this)
-==Compiler==: Takes the entire file and turns it into executable machine code called binary
+- ==Interpreter==: Goes line by line and executes the code (python usually uses this)
+- ==Compiler==: Takes the entire file and turns it into executable machine code called binary
 ##### Python interpreter 
 - When most people talk about Python, they're talking about `cpython` that translate your code script into machine executable code -- ie: `cpython` is a interpreter
 ### Fundamental Data Types 
