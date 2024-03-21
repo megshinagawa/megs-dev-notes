@@ -11,5 +11,6 @@ This page is made using [Obsidian](https://obsidian.md/), [Quartz](https://quart
 ## Navigation
 ---
 - [[I. journal/]]: my journal entries where I share what I learned that day 
-- [[II. courses/]]: all the courses I've taken; great way to navigate my notes topically 
-- [[III. notes/]]: all my notes with no particular organization 
+- [[II. courses/]]: list of the courses I've taken; great way to navigate my notes topically 
+- [[III. notes/]]: my notes with no particular organization 
+- [[IV. projects]]: my project notes 
