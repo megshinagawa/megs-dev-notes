@@ -1,5 +1,5 @@
 ---
-title: daily note
+title: <% tp.file.title %>
 draft: false
 tags:
 ---

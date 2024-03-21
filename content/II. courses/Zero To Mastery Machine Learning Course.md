@@ -13,6 +13,7 @@ tags:
 - [[Pandas]]
 - [[NumPy]]
 - [[Matplotlib]]
+- [[Scikit-Learn]]
 ## Workflow
 ---
 - `conda activate <enviornment_path>`

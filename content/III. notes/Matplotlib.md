@@ -96,3 +96,75 @@ ax[1,1].hist(data)
 ### Pyplot vs matplotlib object-oriented method 
 - When trying to get a quick visualization, pylot is fine but the object-oriented method is better for all other instances 
 ## Object oriented method 
+```python
+# create the plot 
+fig, ax = plt.subplots(figsize=(10,6))
+# plot the data 
+scatter = ax.scatter(x=over_50["age"], 
+					 y=over_50["chol"], 
+					 c=over_50["target"])
+# customize the plot 
+ax.set(title="Heart Disease and Chlestrol Levels", 
+	   xlabel="Age", 
+	   ylabel="Cholestrol")
+# Add legend 
+ax.legend(*scatter.legend_elements(), title="Target")
+
+# Add a horizontal line 
+ax.axhline(over_50["chol"].mean(),
+		  linestyle='--');
+```
+## Object oriented subplots 
+```python 
+# subplot of chol, age, thalach
+fig, (ax0, ax1) = plt.subplot(nrows=2,
+							  ncols=2, 
+							  figsize=(10,10),
+							  sharex=True)
+
+# add data to a0
+scatter = ax0.scatter(x=over_50["age"], 
+					 y=over_50["chol"], 
+					 c=over_50["target"])
+
+# customize ax0
+ax0.set(title="Heart Disease and Chlestrol Levels",  
+	   ylabel="Cholestrol")
+
+# add legend to ax0
+ax0.legend(*scatter.legend_elements(), title="Target")
+
+# Add a horizontal line to ax0
+ax0.axhline(over_50["chol"].mean(),
+		  linestyle='--');
+
+# add data to ax1
+scatter = ax1.scatter(x=over_50["age"], 
+					 y=over_50["thalach"], 
+					 c=over_50["target"],
+					 cmap="winter")
+
+# customize ax1
+ax1.set(title="Heart Disease and Max Heart Rate", 
+	   xlabel="Age", 
+	   ylabel="Max Heart Rate")
+
+# add legend to ax1
+ax0.legend(*scatter.legend_elements(), title="Target")
+
+# Add a horizontal line to ax1
+ax0.axhline(over_50["thalach"].mean(),
+		  linestyle='--')
+
+# add title to the figure 
+fit.suptitle("Heart Disease Analysis", fontsize=16, fontweight="bold");
+```
+## Customizing plots 
+- `plt.style.available`: shows you what you have available to you 
+- `plt.style.use('seaborn-whitegrid')`
+- `plt.style.use('seaborn')`
+- `plt.style.use('ggplot')`
+- `ax.set(title="", xlabel="", ylabel="")`
+- `ax.legend().set_visible(True)`
+- `cmap='winter'` -- you can google different color maps 
+- `ax.set_xlim([])`
